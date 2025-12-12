@@ -1,4 +1,4 @@
-🧠 Toxic Comment Classifier using DistilBERT
+## 🧠 Toxic Comment Classifier using DistilBERT
 
 🚀 A Machine Learning Powered Toxicity Detection Web App
 This project is a Toxic Comment Classifier built using a fine-tuned DistilBERT model, deployed on Hugging Face Spaces, and accessible through a simple, intuitive Streamlit interface.
@@ -48,8 +48,7 @@ Dataset	Jigsaw Toxic Comment Classification
 
 ⚙️ Installation (Run Locally)
 1. Clone the Repository
-git clone https://github.com/USERNAME/REPO_NAME.git
-cd REPO_NAME
+
 
 2. Install Dependencies
 pip install -r requirements.txt
