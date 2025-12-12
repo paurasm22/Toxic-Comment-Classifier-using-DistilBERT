@@ -67,7 +67,7 @@ It predicts whether a given comment is **Toxic** or **Not Toxic** with high accu
 ### **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/USERNAME/REPO_NAME.git
+git clone https://github.com/USERNAME/REPO_NAME.git](https://github.com/paurasm22/Toxic-Comment-Classifier-using-DistilBERT.git
 cd REPO_NAME
 ```
 
