@@ -1,116 +1,155 @@
-## 🧠 Toxic Comment Classifier using DistilBERT
 
-🚀 A Machine Learning Powered Toxicity Detection Web App
-This project is a Toxic Comment Classifier built using a fine-tuned DistilBERT model, deployed on Hugging Face Spaces, and accessible through a simple, intuitive Streamlit interface.
+# 🧠 Toxic Comment Classifier using DistilBERT
 
-It predicts whether a given comment is Toxic or Not Toxic with high accuracy.
+### 🚀 A Machine Learning Powered Toxicity Detection Web App
 
-🔗 Live Demo
+![banner](https://img.shields.io/badge/NLP-DistilBERT-blue?style=for-the-badge)
+![huggingface](https://img.shields.io/badge/Model-HuggingFace-yellow?style=for-the-badge)
+![streamlit](https://img.shields.io/badge/UI-Streamlit-green?style=for-the-badge)
+![license](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)
 
-👉 Hugging Face Space:
-https://huggingface.co/spaces/Pau22/Toxic_Comment_Classifier_using_DistilBERT
+This project is a **Toxic Comment Classifier** built using a **fine-tuned DistilBERT model**, deployed on **Hugging Face Spaces**, and accessible through a simple, intuitive **Streamlit interface**.
 
-👉 Model on Hugging Face Hub:
-https://huggingface.co/Pau22/distilbert-toxic-model
+It predicts whether a given comment is **Toxic** or **Not Toxic** with high accuracy.
 
-✨ Features
+---
 
-🔍 Real-time Toxic Comment Detection
+## 🔗 Live Demo
 
-🧠 Powered by DistilBERT, fine-tuned on Jigsaw Toxic Comment dataset
+👉 **Hugging Face Space:**
+[https://huggingface.co/spaces/Pau22/Toxic_Comment_Classifier_using_DistilBERT](https://huggingface.co/spaces/Pau22/Toxic_Comment_Classifier_using_DistilBERT)
 
-⚡ Fast inference using Hugging Face pipeline()
+👉 **Model on Hugging Face Hub:**
+[https://huggingface.co/Pau22/distilbert-toxic-model](https://huggingface.co/Pau22/distilbert-toxic-model)
 
-🎨 Streamlit-based UI with clean, modern design
+---
 
-📌 Includes example toxic & non-toxic comments
+## ✨ Features
 
-📊 Displays model evaluation metrics
+* 🔍 **Real-time Toxic Comment Detection**
+* 🧠 Powered by **DistilBERT**, fine-tuned on Jigsaw Toxic Comment dataset
+* ⚡ Fast inference using Hugging Face `pipeline()`
+* 🎨 Streamlit-based UI with clean, modern design
+* 📌 Includes **example toxic & non-toxic comments**
+* 📊 Displays **model evaluation metrics**
+* 📥 Easy to clone and run locally
+* 🌐 Fully deployable on Hugging Face Spaces or Render
 
-📥 Easy to clone and run locally
+---
 
-🌐 Fully deployable on Hugging Face Spaces or Render
+## 🧩 Tech Stack
 
-🧩 Tech Stack
-Component	Technology
-NLP Model	DistilBERT + Transformers
-Deployment	Hugging Face Spaces
-Frontend	Streamlit
-Backend	Hugging Face Inference pipeline
-Dataset	Jigsaw Toxic Comment Classification
-📁 Project Structure
+| Component  | Technology                          |
+| ---------- | ----------------------------------- |
+| NLP Model  | DistilBERT + Transformers           |
+| Deployment | Hugging Face Spaces                 |
+| Frontend   | Streamlit                           |
+| Backend    | Hugging Face Inference pipeline     |
+| Dataset    | Jigsaw Toxic Comment Classification |
+
+---
+
+## 📁 Project Structure
+
+```
 📦 Toxic Comment Classifier
 │
 ├── app.py                # Streamlit Application
 ├── requirements.txt      # Python Dependencies
 ├── README.md             # Project Documentation
 └── (No model files needed — loaded directly from HF Hub)
+```
 
-⚙️ Installation (Run Locally)
-1. Clone the Repository
+---
 
+## ⚙️ Installation (Run Locally)
 
-2. Install Dependencies
+### **1. Clone the Repository**
+
+```bash
+git clone https://github.com/USERNAME/REPO_NAME.git
+cd REPO_NAME
+```
+
+### **2. Install Dependencies**
+
+```bash
 pip install -r requirements.txt
+```
 
-3. Run the Streamlit App
+### **3. Run the Streamlit App**
+
+```bash
 streamlit run app.py
+```
 
-🧠 Model Details
+---
+
+## 🧠 Model Details
 
 Your model is located on the Hugging Face Hub:
-➡ https://huggingface.co/Pau22/distilbert-toxic-model
+➡ [https://huggingface.co/Pau22/distilbert-toxic-model](https://huggingface.co/Pau22/distilbert-toxic-model)
 
-Training Summary
+**Training Summary**
 
-Metric	Score
-Loss	0.1062
-Accuracy	0.9685
-Precision	0.8337
-Recall	0.8292
-F1 Score	0.8314
+| Metric    | Score  |
+| --------- | ------ |
+| Loss      | 0.1062 |
+| Accuracy  | 0.9685 |
+| Precision | 0.8337 |
+| Recall    | 0.8292 |
+| F1 Score  | 0.8314 |
 
-Trained for 2 epochs using DistilBERT on the Jigsaw Toxic Comment dataset.
+Trained for **2 epochs** using DistilBERT on the **Jigsaw Toxic Comment dataset**.
 
-💡 Example Inputs
-Toxic:
+---
 
-“You are the worst person ever.”
+## 💡 Example Inputs
 
-“Shut up you idiot.”
+### Toxic:
 
-“You f*cking clown.”
+* “You are the worst person ever.”
+* “Shut up you idiot.”
+* “You f*cking clown.”
 
-Non-Toxic:
+### Non-Toxic:
 
-“Thank you for your help!”
+* “Thank you for your help!”
+* “Have a lovely day!”
+* “I appreciate your effort.”
 
-“Have a lovely day!”
+---
 
-“I appreciate your effort.”
+## 🖼️ Screenshots
 
-🖼️ Screenshots
-🔹 UI Preview
+### 🔹 UI Preview
 
-Add your screenshot here (optional)
+*Add your screenshot here (optional)*
 
-📜 License
+---
 
-This project is licensed under the MIT License — feel free to use, modify, and distribute.
+## 📜 License
 
-🙌 Author
+This project is licensed under the **MIT License** — feel free to use, modify, and distribute.
 
-Pau22
-🔗 Hugging Face: https://huggingface.co/Pau22
+---
 
-🔗 GitHub: https://github.com/paurasm22
+## 🙌 Author
 
-⭐ Support the Project
+**Pau22**
+🔗 Hugging Face: [https://huggingface.co/Pau22](https://huggingface.co/Pau22)
+🔗 GitHub: [https://github.com/paurasm22](https://github.com/paurasm22)
+
+---
+
+## ⭐ Support the Project
 
 If you found this useful, please consider:
 
-⭐ Starring the GitHub repository
+* ⭐ Starring the GitHub repository
+* 🤝 Sharing it with others
+* 💬 Giving feedback or suggestions
 
-🤝 Sharing it with others
+---
 
-💬 Giving feedback or suggestions
+
